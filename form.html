@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </nav>
+    <main class="center">
+      <h1>Form</h1>
+      <form>
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" />
+        </div>
+        <label for="lname">Sobrenome:</label>
+        <input type="text" id="lname" name="lname" />
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" />
+        <div>
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="10"
+            cols="150"
+          ></textarea>
+        </div>
+        <input type="submit" value="Enviar" />
+      </form>
+    </main>
+  </body>
+</html>
